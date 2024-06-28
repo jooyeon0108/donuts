@@ -150,7 +150,7 @@ header .wrap nav .log-join li:last-child::after{
 }
 
 .wrapper{
-     min-width: 300px;
+     padding: 0 20px;
      margin: 0 auto;
 }
 .wrapper .section1{
