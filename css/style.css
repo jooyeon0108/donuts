@@ -94,6 +94,7 @@ header .wrap nav .btn-close button{
      font-size: 0;
      margin-left: auto;
      padding-right: 12px;
+     position: relative;
 }
 header .wrap nav .btn-close button::before{
      content: '';
@@ -101,8 +102,9 @@ header .wrap nav .btn-close button::before{
      background-color: #fff;
      width: 24px;
      height: 2px;
-     transform: translateY(1px) rotate(45deg);
+     transform: translate(-50%, -50%) rotate(45deg);
      border-radius: 4px;
+     position: absolute;
 }
 header .wrap nav .btn-close button::after{
      content: '';
@@ -110,8 +112,10 @@ header .wrap nav .btn-close button::after{
      background-color: #fff;
      width: 24px;
      height: 2px;
-     transform: translateY(-1px) rotate(-45deg);
+     transform: translate(-50%, -50%) rotate(-45deg);
      border-radius: 4px;
+     position: absolute;
+          
 }
 header .wrap nav .gnb li{
      padding: 5px 20px;
