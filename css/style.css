@@ -150,7 +150,7 @@ header .wrap nav .log-join li:last-child::after{
 }
 
 .wrapper{
-     width: 440px;
+     min-width: 300px;
      margin: 0 auto;
 }
 .wrapper .section1{
@@ -181,7 +181,7 @@ header .wrap nav .log-join li:last-child::after{
      margin-bottom: 20px;
 }
 .wrapper .section3 .box a{
-     width: 430px;
+     width: 100%;
      height: auto;
      display: flex;
      gap: 10px;
