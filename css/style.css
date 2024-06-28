@@ -327,15 +327,11 @@ header nav .log-join li:last-child::after{
      margin-bottom: 24px;
 }
 footer{
-     
+     background-color: #a57dff;
      color: #fff;
      width: 100%;
-     padding-bottom: 70px;
-}
-footer .wrapper{
-     width: 100%;
      text-align: center;
-     background-color: #a57dff;
+     padding-bottom: 70px;
 }
 footer .title{
      font-family: 'Donuts & Cookies';
