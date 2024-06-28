@@ -170,6 +170,7 @@ header .wrap nav .log-join li:last-child::after{
      font-size: 14px;
 }
 .wrapper .section2{
+     padding: 0 20px;
      text-align: center;
      margin-bottom: 50px;
 }
