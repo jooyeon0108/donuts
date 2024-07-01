@@ -331,6 +331,9 @@ header .wrap nav .log-join li:last-child::after{
 .wrapper .event .box{
      margin-bottom: 24px;
 }
+.wrapper .event .box .pc{
+     display: none;
+}
 footer{
      background-color: #a57dff;
      color: #fff;
@@ -564,5 +567,22 @@ footer p{
      }
      .wrapper .sns p{
           display: none;
+     }
+     .wrapper .event .box .pc{
+          display: block;
+     }
+     .wrapper .event .box .m{
+          display: none;
+     }
+     .wrapper .event{
+          display: grid;
+          grid-template-columns: unset;
+          grid-template-rows: 1fr 1fr;
+     }
+     .wrapper .event .box:last-child{
+          grid-row: 1 / span 3;
+     }
+     .wrapper .event .box:nth-child(2){
+          grid-row: 2 / 3;
      }
 }
