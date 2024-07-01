@@ -432,13 +432,12 @@ footer p{
      }
      .banner2 .text p:nth-child(2){
           font-size: 30px;
-          letter-spacing: 1px;
-          
+          letter-spacing: 2px;
      }
      .banner2 .text p:nth-child(3){
           font-size: 15px;
           font-weight: 200;
-          letter-spacing: 1px;
+          letter-spacing: 2px;
      }
      .banner2 .text p span{
           font-weight: bold;
