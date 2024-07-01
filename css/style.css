@@ -449,35 +449,40 @@ footer p{
           padding: 0 100px;
      }
      header{
-          height: 180px;
+          height: 200px;
           background-color: #fff;
           border-top: 2px solid #a57dff;
           align-items: unset;
           position: relative;
      }
-     header h1 a .m{
+     header .wrap{
+          background-color: unset;
+          justify-content: unset;
+     }
+     header .wrap h1{
+          padding-top: 90px;
+     }
+     header .wrap h1 a .m{
           display: none;
      }
-     header h1 a .pc{
+     header .wrap h1 a .pc{
           display: block;
-          width: 85%;
-          height: 85%;
-          padding-top: 20px;
+          width: unset;
      }
-     header .btn-nav{
+     header .wrap .btn-nav{
           display: none;
      }
-     header nav{
+     header .wrap nav{
           position: unset;
           top: unset;
           left: unset;
           background-color: unset;
           transition: none;
      }
-     header nav .btn-close{
+     header .wrap nav .btn-close{
           display: none;
      }
-     header nav .gnb{
+     header .wrap nav .gnb{
           width: 100%;
           display: flex;
           justify-content: center;
@@ -486,18 +491,21 @@ footer p{
           transform: translateX(-50%);
           bottom: 0;
      }
-     header nav .gnb li a{
+     header .wrap nav .gnb li a{
           color: black;
           font-size: 14px;
           padding: unset;
      }
-     header nav .log-join{
+     header .wrap nav .log-join{
           position: absolute;
           right: 200px;
      }
-     header nav .log-join li a{
+     header .wrap nav .log-join li a{
           color: black;
           font-size: 12px;
+     }
+     header .wrap .btn-mem{
+          display: none;
      }
      .banner a .pc{
           display: none;
